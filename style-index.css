@@ -1,0 +1,178 @@
+.position {
+    text-align: center;
+    margin: -140px;
+}
+
+.logon {
+    width: 450px;
+    height: 450px;
+    padding: 0px;
+    position: relative;
+}
+
+h1.font {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(43, 91, 71);
+    text-align: center;
+    margin: -200px;
+    position: relative;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.back a {
+    text-decoration: none;
+}
+
+
+.back h4 {
+    padding: 15px;
+    font-size: 17px;
+    color: rgb(43, 91, 71);
+    margin: 20px;
+    line-height: 45px;
+    transition: background-color 0.3s ease;
+}
+
+.back h4:hover {
+    background-color: rgba(43, 91, 71, 0.137);
+    cursor: pointer;
+}
+
+.tamaño {
+    width: 200px;
+    height: 200px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+    margin: 3px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    text-align: center;
+    margin-right: 130px;
+    font-weight: lighter;
+}
+
+.gallery p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+}
+
+.img-zoom {
+    transition: transform 0.3s ease;
+}
+
+.img-zoom:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.aline {
+    text-align: center;
+}
+
+.aline {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
+    font-size: 25px;
+}
+
+
+.aline label,
+.aline input,
+.aline textarea {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.fijar {
+    width: 500px;
+    height: 200px;
+    resize: none;
+}
+
+.infocenter {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-size: 20px;
+    margin-inline: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    margin: 10px;
+    position: relative; 
+}
+
+.menu-item-image {
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+}
+
+.menu-item h4 {
+    position: absolute; 
+    bottom: 70px; 
+    left: 0; 
+    right: 0; 
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px 30px; 
+    font-weight: bold;
+    border-radius: 5px; 
+}
+
+.tienda {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/fotogit-b823c.appspot.com/o/Eucalypto%20info%2FIMG_20230522_151124.jpg?alt=media&token=53f665b8-32b5-45cf-8ca8-9ae4f82ce604&_gl=1*18n707o*_ga*MTY3NDMzNDI5NC4xNjk0NTQ2MzEz*_ga_CW55HF8NVT*MTY5NTk0MjAxMC4xMS4wLjE2OTU5NDIwMTAuNjAuMC4w');
+}
+
+.contacto {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/fotogit-b823c.appspot.com/o/Eucalypto%20info%2FIMG_20230522_151908.jpg?alt=media&token=43305f1d-52d4-4228-8e3c-917bf756e891&_gl=1*4r48i7*_ga*MTY3NDMzNDI5NC4xNjk0NTQ2MzEz*_ga_CW55HF8NVT*MTY5NTk0MjAxMC4xMS4xLjE2OTU5NDIwMjUuNDUuMC4w');
+}
+
+.nosotros {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/fotogit-b823c.appspot.com/o/Eucalypto%20info%2FIMG_20230522_152204.jpg?alt=media&token=50585ae5-db5c-4fe5-9d77-b566b413af94&_gl=1*d55ymc*_ga*MTY3NDMzNDI5NC4xNjk0NTQ2MzEz*_ga_CW55HF8NVT*MTY5NTk0MjAxMC4xMS4xLjE2OTU5NDIwMzMuMzcuMC4w');
+}
